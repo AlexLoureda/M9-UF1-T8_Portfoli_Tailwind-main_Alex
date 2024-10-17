@@ -6,85 +6,107 @@
     <title>Enhanced Responsive Webpage Example</title>
     <link href="/style.css" rel="stylesheet" />
   </head>
-  <body class="bg-gray-200">
-    <!-- Navigation Bar -->
-    <nav>
-      <div class="bg-blue-500 p-2 text-white flex justify-between items-center">
-        <div class="sm:ml-5 md:ml-20 lg:ml-10">My Enhanced Website</div>
-        <div class="text-right hidden lg:block">
-          <a href="#" class="ml-4">Home</a>
-          <a href="#" class="ml-4">About</a>
-          <a href="#" class="ml-4">Services</a>
-          <a href="#" class="ml-4">Contact</a>
-        </div>
-      </div>
-    </nav>
+  <body class="bg-gray-200 font-serif">
+    <div class="bg-blue-950 p-2 text-blue-950 font-bold items-center">
+        <button type="submit" class="m-2 h-9 px-5 rounded-full bg-blue-400">Sobre Mi</button>
+        <button type="submit" class="m-2 h-9 px-5 rounded-full bg-blue-400">Projectes</button>
+        <button type="submit" class="m-2 h-9 px-5 rounded-full bg-blue-400">Contacte</button>
+    </div>
 
-    <!-- Hero Section -->
-    <section class="bg-blue-950 p-12 text-white mb-5 text-center">
-      <div>
-        <h1 class="sm:text-2xl md:text-4xl font-bold">Welcome to My Enhanced Website</h1>
-        <p class="text-sm">Discover amazing content and services. Tailwind makes it magical!</p>
-      </div>
-    </section>
-
-    <!-- Featured Items Grid -->
-    <section class="mx-auto px-4">
-      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white border-2 border-gray-400 rounded-md p-4">
-          <h2 class="text-xl font-bold mb-2">Featured Item 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id
-            feugiat velit.
-          </p>
-          <img src="./img/image1.jpg" alt="Featured Item 1" class="w-full h-40 object-cover rounded-md mb-4"/>
-        </div>
-        <div class="bg-white border-2 border-gray-400 rounded-md p-4">
-          <h2 class="text-xl font-bold mb-2">Featured Item 2</h2>
-          <p>
-            Nulla facilisi. Sed euismod mauris at justo varius, ac ultricies
-            elit posuere.
-          </p>
-          <img src="./img/image2.jpg" alt="Featured Item 2" class="w-full h-40 object-cover rounded-md mb-4"/>
-        </div>
-        <div class="bg-white border-2 border-gray-400 rounded-md p-4">
-          <h2 class="text-xl font-bold mb-2">Featured Item 3</h2>
-          <p>
-            Quisque euismod elit eu felis vestibulum, vitae mattis tortor
-            sodales.
-          </p>
-          <img src="./img/image3.jpg" alt="Featured Item 3" class="w-full h-40 object-cover rounded-md mb-4"/>
-        </div>
-        <!-- Add more items as needed -->
-      </div>
-    </section>
-
-    <!-- Contact Form -->
-    <section class="max-w-md mx-auto px-4 mt-10">
+    <section id="perfil" class="px-4 mt-10">
       <div class="p-5 bg-white border-2 border-gray-400 rounded-md">
-        <h2 class="text-xl font-bold">Contact Us</h2>
-        <form>
-          <div class="mb-4">
-            <label for="name" class="block text-sm">Name:</label>
-            <input class="bg-white border-2 border-gray-400 rounded-md w-full mt-1" type="text" id="name" name="name" />
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block text-sm">Email:</label>
-            <input class="bg-white border-2 border-gray-400 rounded-md w-full mt-1" type="email" id="email" name="email" />
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block text-sm">Message:</label>
-            <textarea class="bg-white border-2 border-gray-400 rounded-md w-full mt-1" id="message" name="message" rows="4"></textarea>
-          </div>
-          <button class="h-9 px-3 rounded-md bg-blue-500 text-white" type="submit">Send Message</button>
-        </form>
+        <div>
+          <h1 class="text-xl font-bold">Sobre Mi</h1>
+          <h3 class="text-base font-bold pt-3 pb-3">Soc L'Alex</h3>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Expedita
+            quia ad porro culpa necessitatibus recusandae, atque est, alias,
+            distinctio deserunt voluptates excepturi qui similique laudantium
+            incidunt maxime corporis fugit ut nesciunt deleniti enim ipsum vitae
+            impedit. Adipisci tempora excepturi fugit voluptatibus temporibus
+            sapiente, delectus atque ea rerum dignissimos? Assumenda, inventore
+            culpa nulla nihil, numquam voluptatum aperiam porro rerum, obcaecati
+            animi distinctio tenetur aliquid odit placeat omnis praesentium
+            mollitia explicabo corrupti voluptatibus laudantium harum laborum
+            maiores quod rem. Error nesciunt soluta nisi est, obcaecati eligendi
+            deserunt tempora commodi non ratione culpa dolore blanditiis
+            inventore at expedita. Dolor eveniet possimus facere odio?
+          </p>
+        </div>
+        <div class="img-cont">
+          <img class="imgPerfil"
+            src="img/imgPerfil.png">
+        </div>
       </div>
     </section>
-    <!-- Link to Responsive Design Example -->
-    <section>
-      <div>
-        <a href="./responsive.html">Check out our Responsive Design Example</a>
+
+    <section id="projectes" class="px-4 mt-10">
+      <div class="p-5 bg-white border-2 border-gray-400 rounded-md">
+        <h1 class="text-center font-bold text-xl">Projectes</h1>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="p-5 m-5 bg-white border-2 border-gray-400 rounded-md">
+            <div class="infoProj">
+              <div class="img-cont">
+                <img class="imgProj"
+                  src="img\img1.png">
+              </div>
+              <h3>Volum 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium exercitationem inventore non aut dolor rem illo,
+                nemo
+                quibusdam asperiores alias sint sequi eum reiciendis debitis
+                eligendi vitae modi obcaecati laudantium qui veniam deserunt
+                dolore
+                sed dignissimos animi? Magnam cum illo eveniet earum iure
+                doloribus
+                recusandae, assumenda sunt similique dolore ipsam!</p>
+            </div>
+          </div>
+
+          <div class="p-5 m-5 bg-white border-2 border-gray-400 rounded-md">
+            <div class="infoProj">
+              <div class="img-cont">
+                <img class="imgProj"
+                  src="img/img2.png">
+              </div>
+              <h3>Volum 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium exercitationem inventore non aut dolor rem illo,
+                nemo
+                quibusdam asperiores alias sint sequi eum reiciendis debitis
+                eligendi vitae modi obcaecati laudantium qui veniam deserunt
+                dolore sed dignissimos animi? Magnam cum illo eveniet earum iure
+                doloribus recusandae, assumenda sunt similique dolore ipsam!</p>
+            </div>
+          </div>
+
+          <div class="p-5 m-5 bg-white border-2 border-gray-400 rounded-md">
+            <div class="infoProj">
+              <div class="img-cont">
+                <img class="imgProj"
+                  src="img/img3.png">
+              </div>
+              <h3>Volum 3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium exercitationem inventore non aut dolor rem illo,
+                nemo quibusdam asperiores alias sint sequi eum reiciendis
+                debitis eligendi vitae modi obcaecati laudantium qui veniam
+                deserunt dolore sed dignissimos animi? Magnam cum illo eveniet
+                earum iure doloribus recusandae, assumenda sunt similique dolore
+                ipsam!</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <section id="contacte" class="footer">
+      <p class="dades">
+        <a>Mail: <a
+            href="mailto:alex.loureda@cirvianum.cat">alex.loureda@cirvianum.cat</a></a>
+      </p>
+    </section>
+
   </body>
 </html>
